@@ -1,0 +1,41 @@
+<!-- fragment_losango.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diagonal Maior:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_diagonal_maior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="diagonal maior"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diagonal Menor:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_diagonal_menor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="diagonal menor"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_calcular_losango"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+</LinearLayout>

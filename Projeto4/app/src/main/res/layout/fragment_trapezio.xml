@@ -1,0 +1,55 @@
+<!-- fragment_trapezio.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Maior:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_base_maior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="base maior"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base Menor:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_base_menor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="base menor"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura:"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_altura_trapezio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="altura"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_calcular_trapezio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+</LinearLayout>
